@@ -1,0 +1,33 @@
+* body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:grey ;
+}
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns:15% 1fr;
+    grid-gap: 1rem;
+    
+}
+.left, .experience, .education{
+    background-color:bisque;
+}
+
+.personal, .skills{
+    padding: 1rem;
+    line-height: 3;
+}
+.experience{
+    line-height: 1.5;
+}
+.experience, .education {
+    line-height: 1.5;
+    padding: 2rem;
+}
+.education{
+    padding: 2rem;
+}
